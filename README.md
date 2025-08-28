@@ -8,11 +8,11 @@ Una aplicación web moderna que convierte listados de productos de belleza desde
 ---
 
 ## ✨ Características
-  · 📤 Carga fácil: Arrastra y suelta o selecciona tus archivos .txt
-  · 🧹 Limpieza automática: Corrige saltos de línea incorrectos en los productos
-  · 📊 Exportación a Excel: Genera archivos .xlsx perfectamente organizados
-  · 🎨 Interfaz moderna: Diseño intuitivo y responsive
-  · ⚡ Rendimiento optimizado: Construido con Vite para tiempos de carga ultrarrápidos
+  - 📤 Carga fácil: Arrastra y suelta o selecciona tus archivos .txt
+  - 🧹 Limpieza automática: Corrige saltos de línea incorrectos en los productos
+  - 📊 Exportación a Excel: Genera archivos .xlsx perfectamente organizados
+  - 🎨 Interfaz moderna: Diseño intuitivo y responsive
+  - ⚡ Rendimiento optimizado: Construido con Vite para tiempos de carga ultrarrápidos
 
 ## 🚀 Demo
 Puedes probar una demo en vivo aquí
