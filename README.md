@@ -25,6 +25,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
   ```bash
   git clone https://github.com/tuusuario/beauty-products-excel-converter.git
   cd beauty-products-excel-converter
+  ```
 
 2. Instala las dependencias:
 
