@@ -40,7 +40,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
   ```
 
 4. Abre la aplicación en tu navegador:
-👉 http://localhost:5173
+  👉 [http://localhost:5173](http://localhost:5173)
 
 ## 📖 Cómo usar
 **Flujo básico de trabajo**
@@ -70,7 +70,7 @@ Algunos listados pueden traer saltos de línea que parten un producto en varias 
   1. Abre el archivo en un editor de texto (Notepad++, VSCode, Sublime Text)
   2. Activa el modo de expresiones regulares en buscar/reemplazar
   3. Busca este patrón regex: \n(?!-)
-    · Esto encuentra saltos de línea que NO van seguidos de un guion
+    - Esto encuentra saltos de línea que NO van seguidos de un guion
   4. Reemplázalo con un espacio en blanco
   5. Haz clic en "Reemplazar todo"
 
@@ -84,42 +84,14 @@ Algunos listados pueden traer saltos de línea que parten un producto en varias 
 
 **✅ Texto corregido:**
 
-  text
-  - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
-
-**🛠️ Tecnologías utilizadas**
-  · Vite - Entorno de desarrollo ultrarrápido
-  · React - Biblioteca de JavaScript para interfaces
-  · SheetJS - Biblioteca para manipulación de archivos Excel
-  · Tailwind CSS - Framework de CSS utility-first (opcional)
-
-**📁 Estructura del proyecto**
   ```text
-  src/
-  ├── components/          # Componentes React reutilizables
-  ├── utils/              # Utilidades y funciones helper
-  ├── hooks/              # Custom React hooks
-  ├── styles/             # Archivos de estilos (si se usa CSS)
-  └── App.jsx             # Componente principal
+  - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
   ```
-
-**🤝 Contribuir**
-Las contribuciones son siempre bienvenidas. Para contribuir:
-
-  1. Haz fork del proyecto
-  2. Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
-  3. Commit tus cambios (git commit -m 'Add some AmazingFeature')
-  4. Push a la rama (git push origin feature/AmazingFeature)
-  5. Abre un Pull Request
 
 **📜 Licencia**
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 **👥 Autores**
-  · Alonso Flores
-
-**🙌 Agradecimientos**
-  · SheetJS por la excelente librería para trabajar con Excel
-  · Vite por el entorno de desarrollo increíblemente rápido
+  - [Alonso Flores](https://github.com/aloonsoflores/)
 
 ⭐ ¡Si este proyecto te fue útil, por favor déjale una estrella en GitHub!
