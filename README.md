@@ -31,11 +31,13 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
   ```bash
   npm install
+  ```
 
 3. Inicia el servidor de desarrollo:
 
   ```bash
   npm run dev
+  ```
 
 4. Abre la aplicación en tu navegador:
 👉 http://localhost:5173
@@ -50,15 +52,17 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 **⚠️ Formato del archivo de entrada**
 Para mejores resultados, tu archivo .txt debe seguir este formato:
 
-  text
+  ```text
   - Nombre del producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
   - Otro producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
+  ```
 
 Ejemplo:
 
-  text
+  ```text
   - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
   - La Roche Posay EFFACLAR (PIEL GRASA)(SÉRUM)(ANTIMARCAS)(30ml)= 32€
+  ```
 
 **🔧 Corrección de saltos de línea incorrectos**
 Algunos listados pueden traer saltos de línea que parten un producto en varias líneas. Para corregirlos:
@@ -73,9 +77,10 @@ Algunos listados pueden traer saltos de línea que parten un producto en varias 
 **Ejemplo de corrección:**
 **❌ Texto original con saltos incorrectos:**
 
-  text
+  ```text
   - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO
   TIPO PIEL)(50ml)= 40€
+  ```
 
 **✅ Texto corregido:**
 
@@ -89,13 +94,14 @@ Algunos listados pueden traer saltos de línea que parten un producto en varias 
   · Tailwind CSS - Framework de CSS utility-first (opcional)
 
 **📁 Estructura del proyecto**
-  text
+  ```text
   src/
   ├── components/          # Componentes React reutilizables
   ├── utils/              # Utilidades y funciones helper
   ├── hooks/              # Custom React hooks
   ├── styles/             # Archivos de estilos (si se usa CSS)
   └── App.jsx             # Componente principal
+  ```
 
 **🤝 Contribuir**
 Las contribuciones son siempre bienvenidas. Para contribuir:
