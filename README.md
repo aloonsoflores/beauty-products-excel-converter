@@ -1,9 +1,9 @@
 # 🧴 Beauty Products to Excel Converter
 Una aplicación web moderna que convierte listados de productos de belleza desde archivos de texto plano (.txt) a archivos Excel (.xlsx) organizados y listos para usar. Construida con Vite + React para ofrecer una experiencia rápida y fácil de usar.
 
-https://img.shields.io/badge/React-18.x-blue?logo=react
-https://img.shields.io/badge/Vite-4.x-purple?logo=vite
-https://img.shields.io/badge/License-MIT-green
+![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-4.x-purple?logo=vite)
+![License-MIT](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
