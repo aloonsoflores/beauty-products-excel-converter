@@ -22,19 +22,19 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. Clona este repositorio:
 
-   ```bash
-git clone https://github.com/tuusuario/beauty-products-excel-converter.git
-cd beauty-products-excel-converter
+  ```bash
+  git clone https://github.com/tuusuario/beauty-products-excel-converter.git
+  cd beauty-products-excel-converter
 
 2. Instala las dependencias:
 
-   ```bash
-npm install
+  ```bash
+  npm install
 
 3. Inicia el servidor de desarrollo:
 
-   ```bash
-npm run dev
+  ```bash
+  npm run dev
 
 4. Abre la aplicación en tu navegador:
 👉 http://localhost:5173
@@ -49,15 +49,15 @@ npm run dev
 **⚠️ Formato del archivo de entrada**
 Para mejores resultados, tu archivo .txt debe seguir este formato:
 
-   ```bash
-- Nombre del producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
-- Otro producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
+  text
+  - Nombre del producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
+  - Otro producto (Detalles)(Tipo)(Más detalles)(Tamaño)= Precio
 
 Ejemplo:
 
-   ```bash
-- Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
-- La Roche Posay EFFACLAR (PIEL GRASA)(SÉRUM)(ANTIMARCAS)(30ml)= 32€
+  text
+  - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
+  - La Roche Posay EFFACLAR (PIEL GRASA)(SÉRUM)(ANTIMARCAS)(30ml)= 32€
 
 **🔧 Corrección de saltos de línea incorrectos**
 Algunos listados pueden traer saltos de línea que parten un producto en varias líneas. Para corregirlos:
@@ -72,53 +72,47 @@ Algunos listados pueden traer saltos de línea que parten un producto en varias 
 **Ejemplo de corrección:**
 **❌ Texto original con saltos incorrectos:**
 
-   ```bash
-- Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO
-TIPO PIEL)(50ml)= 40€
+  text
+  - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO
+  TIPO PIEL)(50ml)= 40€
 
 **✅ Texto corregido:**
 
-text
-- Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
-🛠️ Tecnologías utilizadas
-Vite - Entorno de desarrollo ultrarrápido
+  text
+  - Clarins EXTRA FIRMING JOUR (COLLAGENO)(DÍA)(TODO TIPO PIEL)(50ml)= 40€
 
-React - Biblioteca de JavaScript para interfaces
+**🛠️ Tecnologías utilizadas**
+  · Vite - Entorno de desarrollo ultrarrápido
+  · React - Biblioteca de JavaScript para interfaces
+  · SheetJS - Biblioteca para manipulación de archivos Excel
+  · Tailwind CSS - Framework de CSS utility-first (opcional)
 
-SheetJS - Biblioteca para manipulación de archivos Excel
+**📁 Estructura del proyecto**
+  text
+  src/
+  ├── components/          # Componentes React reutilizables
+  ├── utils/              # Utilidades y funciones helper
+  ├── hooks/              # Custom React hooks
+  ├── styles/             # Archivos de estilos (si se usa CSS)
+  └── App.jsx             # Componente principal
 
-Tailwind CSS - Framework de CSS utility-first (opcional)
-
-📁 Estructura del proyecto
-text
-src/
-├── components/          # Componentes React reutilizables
-├── utils/              # Utilidades y funciones helper
-├── hooks/              # Custom React hooks
-├── styles/             # Archivos de estilos (si se usa CSS)
-└── App.jsx             # Componente principal
-🤝 Contribuir
+**🤝 Contribuir**
 Las contribuciones son siempre bienvenidas. Para contribuir:
 
-Haz fork del proyecto
+  1. Haz fork del proyecto
+  2. Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
+  3. Commit tus cambios (git commit -m 'Add some AmazingFeature')
+  4. Push a la rama (git push origin feature/AmazingFeature)
+  5. Abre un Pull Request
 
-Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
-
-Commit tus cambios (git commit -m 'Add some AmazingFeature')
-
-Push a la rama (git push origin feature/AmazingFeature)
-
-Abre un Pull Request
-
-📜 Licencia
+**📜 Licencia**
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-👥 Autores
-Tu Nombre
+**👥 Autores**
+  · Alonso Flores
 
-🙌 Agradecimientos
-SheetJS por la excelente librería para trabajar con Excel
-
-Vite por el entorno de desarrollo increíblemente rápido
+**🙌 Agradecimientos**
+  · SheetJS por la excelente librería para trabajar con Excel
+  · Vite por el entorno de desarrollo increíblemente rápido
 
 ⭐ ¡Si este proyecto te fue útil, por favor déjale una estrella en GitHub!
